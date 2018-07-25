@@ -6,7 +6,7 @@
 
 SoftwareSerial lcd = SoftwareSerial(rxPin,txPin);
 
-int leftSensor;
+int leftSensor;     //initializing sensors
 int rightSensor;
 
 void setup() {
